@@ -1,6 +1,6 @@
 {
   "name": "indikagamage/unyson-builder",
-  "type": "unyson-plugin",
+  "type": "wordpress-plugin",
   "license": ["GPL-2.0"],
   
   "description": "Page builder for WordPress unyson framework",
@@ -17,11 +17,6 @@
   
   "require": {
     "php": ">=5.6" 
-  },
-  "scripts": {
-    "post-install-cmd": [
-        "php -r \"system('mv '.getcwd().'/vendor/indikagamage/unyson-builder '.getcwd().'web/app/plugins/unyson/framework/extensions/');\""
-    ]
-   }
+  }
   
 }
