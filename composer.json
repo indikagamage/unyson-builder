@@ -1,6 +1,6 @@
 {
   "name": "indikagamage/unyson-builder",
-  "type": "wordpress-unyson",
+  "type": "wordpress-plugin",
   "license": ["GPL-2.0"],
   
   "description": "Page builder for WordPress unyson framework",
