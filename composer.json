@@ -3,7 +3,7 @@
   "type": "unyson-plugin",
   "license": ["GPL-2.0"],
   
-  "description": "Page builder for builder WordPress unyson framework",
+  "description": "Page builder for WordPress unyson framework",
   "authors": [
     {
       "name": "Indika Gamage",
@@ -17,6 +17,11 @@
   
   "require": {
     "php": ">=5.6" 
-  }
+  },
+  "scripts": {
+    "post-install-cmd": [
+        "php -r \"system('mv '.getcwd().'/vendor/indikagamage/unyson-builder '.getcwd().'web/app/plugins/unyson/framework/extensions/');\""
+    ]
+   }
   
 }
